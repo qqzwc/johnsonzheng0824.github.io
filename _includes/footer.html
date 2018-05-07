@@ -1,9 +1,12 @@
 {% include svg-icons.html %}
 
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-随机一言：<span id="motto"></span>
+中文随机一言：<span id="motto"></span>
+<br>
+English random motto：<span id="mottoEN"></span>
 <script>
     $("#motto").load("https://v1.hitokoto.cn/?encode=text");
+    $("#mottoEN").load("https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=text");
 </script>
 
 {% if site.footer-text %}
