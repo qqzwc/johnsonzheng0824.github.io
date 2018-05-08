@@ -1,11 +1,11 @@
 {% include svg-icons.html %}
 
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-中文随机一言：<span id="motto"></span>
+格言(中文)：<span id="motto"></span>
 <br>
-English random motto：<span id="mottoEN"></span>
+Motto(English)：<span id="mottoEN"></span>
 <script>
-    $("#motto").load("https://v1.hitokoto.cn/?encode=text");
+    /*$("#motto").load("https://v1.hitokoto.cn/?encode=text");
     $.ajax({
         url: "https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=parseQuote",
         jsonp: "callback",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)
@@ -15,6 +15,49 @@ English random motto：<span id="mottoEN"></span>
         {
             console.log(response);
             $("#mottoEN").append(response.quoteText);
+        }
+    });*/
+
+    function formatterDateTime() {
+        var date=new Date()
+        var month=date.getMonth() + 1
+        var datetime = date.getFullYear()
+            + ""// "年"
+            + (month >= 10 ? month : "0"+ month)
+            + ""// "月"
+            + (date.getDate() < 10 ? "0" + date.getDate() : date
+                .getDate())
+            + ""
+            + (date.getHours() < 10 ? "0" + date.getHours() : date
+                .getHours())
+            + ""
+            + (date.getMinutes() < 10 ? "0" + date.getMinutes() : date
+                .getMinutes())
+            + ""
+            + (date.getSeconds() < 10 ? "0" + date.getSeconds() : date
+                .getSeconds());
+        return datetime;
+    }
+
+    $.ajax({
+        type: 'post',
+        url: 'http://route.showapi.com/1211-1',
+        dataType: 'json',
+        data: {
+            "showapi_timestamp": formatterDateTime(),
+            "showapi_appid": '64179', //这里需要改成自己的appid
+            "showapi_sign": '43151aba25264d14b72fa25d872b1839',  //这里需要改成自己的应用的密钥secret
+            "count":"1"
+
+        },
+
+        error: function(XmlHttpRequest, textStatus, errorThrown) {
+            alert("操作失败!");
+        },
+        success: function(result) {
+            console.log(result); //console变量在ie低版本下不能用
+            $("#mottoEN").append(result.showapi_res_body.data[0].english);
+            $("#motto").append(result.showapi_res_body.data[0].chinese);
         }
     });
 </script>
