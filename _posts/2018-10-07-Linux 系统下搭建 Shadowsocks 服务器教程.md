@@ -55,11 +55,9 @@ Google 云地址：[http://cloud.google.com](http://cloud.google.com)
 
 在最后出现红底数据以后，就是 Shadowsocks 服务端配置信息，在你的 Shadowsocks 客户端配置上即可。
 
-<div name="谷歌云防火墙规则添加（位置在谷歌云VPC网络-防火墙）" data-unique="谷歌云防火墙规则添加（位置在谷歌云VPC网络-防火墙）">
-
 ### 谷歌云防火墙规则添加 （位置在谷歌云 VPC 网络 - 防火墙）
 
 点击添加新规则，然后按照一下这个设置好。这样 SSR 设置任何端口都可以使用。并且后续不需要再来防火墙规则做设置了。
-[![](https://ww3.sinaimg.cn/large/006LWy2zgy1fvyg3z1s1mj30ra10iq5o.jpg)](https://user-images.githubusercontent.com/34980980/38017949-234a1e70-32a6-11e8-823f-9242466d87b7.png)
+![](https://ww3.sinaimg.cn/large/006LWy2zgy1fvyg3z1s1mj30ra10iq5o.jpg)](https://user-images.githubusercontent.com/34980980/38017949-234a1e70-32a6-11e8-823f-9242466d87b7.png)
 
 其他云服务商的你也得检查一下你的网络防火墙设置。
