@@ -317,7 +317,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 2px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -400,7 +400,7 @@ nav {
 // Posts
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $divider-color;
+  border-bottom: 2px solid $divider-color;
 }
 
 .posts > .post:last-child {
