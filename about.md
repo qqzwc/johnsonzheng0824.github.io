@@ -11,14 +11,16 @@ permalink: /about/
 
 to be continue...
 
-- 2019 年 7 月，大学毕业。
+- 2019 年 7 月，大学即将毕业。
 
 - 2015 年 7 月，高中毕业。
+    ![](/images/about/Senior.jpg)
 
 - 2012 年 7 月，初中毕业。
+    ![](/images/about/Junior.jpg)
 
 - 2009 年 7 月，小学毕业。
-
+    ![](/images/about/Primary.jpg)
 
 ### 这，就是我
 没那么坚强，没那么聪明，没那么扭转乾坤，也没那么不可一世。
