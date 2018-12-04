@@ -39,10 +39,11 @@ youtube-dl -U
   `youtube-dl -F [url]`<br>
   ![](/images/posts/youtube/list.png)
 
-- 下载指定质量的视频和音频并自动合并
-  youtube-dl -f [format code] [url]
+- 下载指定质量的视频和音频并自动合并<br>
+  `youtube-dl -f [format code] [url]`<br>
   通过上一步获取到了所有视频格式的清单，最左边一列就是编号对应着不同的格式.
   由于 YouTube 的 1080p 及以上的分辨率都是音视频分离的, 所以我们需要分别下载视频和音频, 可以使用 137+140 这样的组合.
+  即 `youtube-dl -f 137+140 [url]`
   如果系统中安装了 ffmpeg 的话, youtube-dl 会自动合并下下好的视频和音频, 然后自动删除单独的音视频文件
   
   ![](/images/posts/youtube/download.png)
