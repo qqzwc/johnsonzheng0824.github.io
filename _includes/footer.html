@@ -4,7 +4,8 @@
 <span id="quote"></span>&nbsp;——&nbsp;<span id="author"></span>
 <script>
     /*$("#motto").load("https://v1.hitokoto.cn/?encode=text");*/
-    $.ajax({
+
+    /*$.ajax({
         url: "https://api.forismatic.com/api/1.0/?method=getQuote&format=jsonp&lang=en&jsonp=parseQuote",
         jsonp: "callback",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)
         jsonpCallback: "parseQuote",//自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名，也可以写"?"，jQuery会自动为你处理数据
@@ -15,7 +16,7 @@
             $("#quote").append(response.quoteText);
             $("#author").append(response.quoteAuthor);
         }
-    });
+    });*/
 
     /*function formatterDateTime() {
         var date=new Date()
@@ -70,6 +71,15 @@
             $("#poem").append(result.data.content);
         }
     });*/
+
+    $.ajax({
+        url: 'https://judouapp.com/api/v5/sentences/random?app_key=af66b896-665e-415c-a119-6ca5233a6963&channel=App%20Store&device_id=579e2dab1cca58541c96004e17238d82&device_type=iPhone9%2C1&newbie=1&numbers=1&platform=ios&signature=3f9f8ecd9dfedf3430ddda190c0c4572&system_version=11.4.1&timestamp=1531034267&token=04a1c73e83e2a3fef91a2c46476f9b3f&version=3.4.0&version_code=29',
+        success: function (result) {
+            console.log(result);
+            $("#quote").append(result[0].content);
+            $("#author").append(result[0].author.name);
+        }
+    });
 </script>
 
 {% if site.footer-text %}
