@@ -33,8 +33,6 @@ Google 云地址：[http://cloud.google.com](http://cloud.google.com)
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
 
-mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
-
 蓝底窗口按 TAB 键选 NO
 
 选择重启 Y
