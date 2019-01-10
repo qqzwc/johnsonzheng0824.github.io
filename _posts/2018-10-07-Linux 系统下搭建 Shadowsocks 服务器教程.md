@@ -33,6 +33,8 @@ Google 云地址：[http://cloud.google.com](http://cloud.google.com)
 
 2：wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
 
+2：wget -n --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
+
 蓝底窗口按 TAB 键选 NO
 
 选择重启 Y
