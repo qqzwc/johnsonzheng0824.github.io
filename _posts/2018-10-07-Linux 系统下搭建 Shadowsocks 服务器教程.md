@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Linux 系统下搭建 Shadowsocks 服务器教程"
+title: "Linux 系统下搭建 Shadowsocks 服务器"
 date: 2018-10-07
 tag: 梯子
 --- 
 
-Google 云新用户注册可以免费领取 $300 一年期使用权，如果你用的是其他云服务商，教程通用，这里只是以 Google 云为例，操作系统推荐大家用 CentOS6（就没蓝底那个窗口了），也可以使用 debian9(推荐）使用 debian9 可以只用从第 5 步开始（当然 sudo -i 这一步还是要的）只需 2 步就可以搭建好。不用装 BBR 加速器 速度也非常的快 直接破百兆！
+Google 云新用户注册可以免费领取 $300 一年期使用权，如果你用的是其他云服务商，教程通用，这里只是以 Google 云为例，操作系统推荐大家用 CentOS6（就没蓝底那个窗口了），也可以使用 *debian9(推荐）* 使用 debian9 可以只用从第 5 步开始（当然 sudo -i 这一步还是要的）只需 2 步就可以搭建好。不用装 BBR 加速器 速度也非常的快 直接破百兆！
 
 Google 云地址：[http://cloud.google.com](http://cloud.google.com)
 
@@ -31,7 +31,7 @@ Google 云地址：[http://cloud.google.com](http://cloud.google.com)
 
 1：sudo -i(最前面显示 root@xxxx)
 
-wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
+2：wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
 
 蓝底窗口按 TAB 键选 NO
 
