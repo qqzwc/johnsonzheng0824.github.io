@@ -20,13 +20,13 @@ avatar: https://s1.ax1x.com/2018/10/30/i2ym5R.jpg
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: 博客
+  - name: 📚博客
     url: /
-  - name: 关于
+  - name: 👨‍🎓关于
     url: /about
-  - name: 归档
+  - name: 💡归档
     url: /archive
-  - name: 标签🏷️
+  - name: 🏷️标签
     url: /tags
 
 # Pagination
