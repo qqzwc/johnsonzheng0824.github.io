@@ -29,9 +29,9 @@ Google 云地址：[http://cloud.google.com](http://cloud.google.com)
 
 1-4 是安装 BBR 加速器部分 5-6 是 ssr 部分
 
-1：sudo -i(最前面显示 root@xxxx)
+1：`sudo -i`(最前面显示 root@xxxx)
 
-2：wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
+2：`wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install`
 
 蓝底窗口按 TAB 键选 NO
 
@@ -39,13 +39,13 @@ Google 云地址：[http://cloud.google.com](http://cloud.google.com)
 
 这里会断开连接，大家可以关掉窗口再重新打开或几秒钟后在界面随便按几个字母 便会提示重新连接。
 
-3：sudo -i (最前面显示 root@xxxx)
+3：`sudo -i`(最前面显示 root@xxxx)
 
-4：bash bbr.sh start
+4：`bash bbr.sh start`
 
-5：wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
+5：`wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh`
 
-6：./shadowsocksR.sh
+6：`./shadowsocksR.sh`
 
 输入 shadowsocks 密码
 
@@ -69,32 +69,32 @@ Google 云地址：[http://cloud.google.com](http://cloud.google.com)
 卸载方法：
 使用 root 用户登录，运行以下命令：
 
-./shadowsocksR.sh uninstall
+`./shadowsocksR.sh uninstall`
 
 安装完成后即已后台启动 ShadowsocksR
 
 运行：
 
-/etc/init.d/shadowsocks status
+`/etc/init.d/shadowsocks status`
 
 可以查看 ShadowsocksR 进程是否已经启动。
 本脚本安装完成后，已将 ShadowsocksR 自动加入开机自启动。
 
 使用命令：
 
-启动：/etc/init.d/shadowsocks start
+启动：`/etc/init.d/shadowsocks start`
 
-停止：/etc/init.d/shadowsocks stop
+停止：`/etc/init.d/shadowsocks stop`
 
-重启：/etc/init.d/shadowsocks restart
+重启：`/etc/init.d/shadowsocks restart`
 
-状态：/etc/init.d/shadowsocks status
+状态：`/etc/init.d/shadowsocks status`
 
-配置文件路径：/etc/shadowsocks.json
+配置文件路径：`/etc/shadowsocks.json`
 
-日志文件路径：/var/log/shadowsocks.log
+日志文件路径：`/var/log/shadowsocks.log`
 
-代码安装目录：/usr/local/shadowsocks
+代码安装目录：`/usr/local/shadowsocks`
 
 多用户配置示例：
 ```json
