@@ -29,9 +29,15 @@ Google 云地址：[http://cloud.google.com](http://cloud.google.com)
 
 1-4 是安装 BBR 加速器部分 5-6 是 ssr 部分
 
-1：`sudo -i`(最前面显示 root@xxxx)
+1：(最前面显示 root@xxxx)
+```bash
+sudo -i
+```
 
-2：`wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install`
+2：
+```bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
+```
 
 蓝底窗口按 TAB 键选 NO
 
