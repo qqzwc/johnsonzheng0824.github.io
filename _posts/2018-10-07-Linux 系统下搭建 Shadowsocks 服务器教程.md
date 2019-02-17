@@ -45,13 +45,25 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/Ya
 
 这里会断开连接，大家可以关掉窗口再重新打开或几秒钟后在界面随便按几个字母 便会提示重新连接。
 
-3：`sudo -i`(最前面显示 root@xxxx)
+3：
+```bash
+sudo -i
+```
 
-4：`bash bbr.sh start`
+4：
+```bash
+bash bbr.sh start
+```
 
-5：`wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh`
+5：
+```bash
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
+```
 
-6：`./shadowsocksR.sh`
+6：
+```bash
+./shadowsocksR.sh
+```
 
 输入 shadowsocks 密码
 
