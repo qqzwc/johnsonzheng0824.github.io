@@ -6,7 +6,7 @@
 name: Johnson
 
 # Short bio or description (displayed in the header)
-description: A lie
+description: Thoughts, stories and ideas.
 
 #
 # Flags below are optional
@@ -26,7 +26,7 @@ navigation:
     url: /about
   - name: 归档
     url: /archive
-  - name: 标签
+  - name: 标签🏷️
     url: /tags
 
 # Pagination
