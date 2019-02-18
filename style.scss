@@ -27,6 +27,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Pacifico';
+  src: url('fonts/Pacifico/Pacifico.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Pacifico/Pacifico.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Pacifico/Pacifico.woff2') format('woff2'),
+       url('fonts/Pacifico/Pacifico.woff') format('woff'),/* Modern Browsers */
+       url('fonts/Pacifico/Pacifico.ttf') format('truetype'),/* Safari, Android, iOS */
+       url('fonts/Pacifico/Pacifico.svg#Pacifico') format('svg');/* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-size: $base-font-size;
 }
@@ -368,7 +380,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: Pacifico;
   font-weight: 300;
   font-size: 33px;
   letter-spacing: 1px;
