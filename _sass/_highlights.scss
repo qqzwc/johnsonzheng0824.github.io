@@ -1,9 +1,10 @@
 pre, code {
   font-family: $code-font;
+  font-size: 18px;
 }
 
 code.highlighter-rouge {
-  font-size: 90%;
+  font-size: 100%;
   color: $oc-indigo-9;
   background-color: $oc-gray-1;
   padding: .1em .2em;
