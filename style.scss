@@ -39,6 +39,15 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "DankMonoNormal";
+  src: url("fonts/DankMonoNormal/DankMonoNormal.woff2") format("woff2"),
+       url("fonts/DankMonoNormal/DankMonoNormal.woff") format("woff"),
+       url("fonts/DankMonoNormal/DankMonoNormal.ttf") format("truetype"),
+       url("fonts/DankMonoNormal/DankMonoNormal.eot") format("embedded-opentype"),
+       url("fonts/DankMonoNormal/DankMonoNormal.svg") format("svg");
+}
+
 html {
   font-size: $base-font-size;
 }
