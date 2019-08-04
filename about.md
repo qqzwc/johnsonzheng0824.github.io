@@ -11,7 +11,8 @@ permalink: /about/
 
 to be continue...
 
-- 2019 年 7 月，大学即将毕业。
+- 2019 年 6 月，大学毕业。
+    ![](/images/about/College.png)
 
 - 2015 年 7 月，高中毕业。
     ![](/images/about/Senior.jpg)
