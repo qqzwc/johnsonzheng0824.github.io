@@ -6,7 +6,7 @@
 name: Cheng
 
 # Short bio or description (displayed in the header)
-description: Expectation for the future
+description: 流年笑掷，未来可期
 
 #
 # Flags below are optional
@@ -20,13 +20,13 @@ avatar: #https://s1.ax1x.com/2018/10/30/i2ym5R.jpg
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: 📚博客
+  - name: 📚HOME
     url: /
-  - name: 👨‍🎓关于
+  - name: 👨‍🎓ABOUT
     url: /about
-  - name: 💡归档
+  - name: 💡ARCHIVE
     url: /archive
-  - name: 🏷️标签
+  - name: 🏷️TAGS
     url: /tags
 
 # Pagination
@@ -51,7 +51,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2019 Cheng
+footer-text: ©2020 Cheng
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
